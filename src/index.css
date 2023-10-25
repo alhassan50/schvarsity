@@ -29,14 +29,14 @@ body {
   position: relative;
 }
 
-.App header {
+header {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: var(--header-padding);
 }
 
-.App header .logo-container {
+header .logo-container {
   width: 120px;
 }
 
@@ -52,26 +52,26 @@ main {
   max-width: 582px;
 }
 
-.App .hero-section {
+ .hero-section {
   color: var(--third-color);
 }
 
-.App .hero-section .mobile-hero-text h1 {
+ .hero-section .mobile-hero-text h1 {
   font-size: 25px;
   margin-bottom: 1.5rem;
   line-height: 2.7rem;
 }
 
-.App .hero-section .mobile-hero-text #schvarsity {
+ .hero-section .mobile-hero-text #schvarsity {
   background-color: var(--primary-color);
   padding: 5px 15px;
 }
 
-.App .hero-section .desktop-hero-text {
+ .hero-section .desktop-hero-text {
   display: none;
 }
 
-.App form .input-field {
+ form .input-field {
   display: flex;
   flex-direction: column;
 }
@@ -80,25 +80,25 @@ form .form-header {
   display: none;
 }
 
-.App form .input-field small.error-message {
+ form .input-field small.error-message {
   text-align: left;
   color: var(--primary-color);
   margin-top: 5px;
 }
 
-.App form .input-field:not(:last-child) {
+ form .input-field:not(:last-child) {
   margin-bottom: 1rem;
 }
 
-.App form label {
+ form label {
   color: var(--third-color);
   text-align: left;
   font-weight: 300;
   margin-bottom: 8px;
 }
 
-.App form .input-field input,
-.App form .input-field select {
+ form .input-field input,
+ form .input-field select {
   color: var(--third-color);
   padding: 10px;
   font-size: 16px;
@@ -109,12 +109,12 @@ form .form-header {
   color: var(--third-color);
 }
 
-.App form .input-field input:focus,
-.App form .input-field select:focus {
+ form .input-field input:focus,
+ form .input-field select:focus {
   border: 2px solid var(--third-color);
 }
 
-.App form .input-field select option {
+ form .input-field select option {
   color: var(--secondary-color);
 }
 
@@ -123,7 +123,7 @@ input::placeholder {
   opacity: .7;
 }
 
-.App form .submit-btn {
+ form .submit-btn {
   font-size: 16px;
   padding: 15px;
   font-weight: 600;
@@ -134,7 +134,7 @@ input::placeholder {
   cursor: pointer;
 }
 
-.App form .submit-btn:hover {
+ form .submit-btn:hover {
   background-color: #e4582ee3;
 }
 
@@ -208,7 +208,7 @@ input::placeholder {
     display: block;
   }
 
-  .App main .registration-content {
+   main .registration-content {
     max-width: 1500px;
     display: flex;
     justify-content: center;
@@ -220,16 +220,16 @@ input::placeholder {
     display: none;
   }
 
-  .App .hero-section .desktop-hero-text {
+   .hero-section .desktop-hero-text {
     display: block;
   }
 
-  .App .hero-section .hero-figure {
+   .hero-section .hero-figure {
     position: relative;
     max-width: 500px;
   }
 
-  .App .hero-section .desktop-hero-text {
+   .hero-section .desktop-hero-text {
     display: block;
     background-color: var(--primary-color);
     width: 100%;
@@ -243,7 +243,7 @@ input::placeholder {
     opacity: .85;
   }
 
-  .App .hero-section .desktop-hero-text h1 {
+   .hero-section .desktop-hero-text h1 {
     font-size: 25px;
   }
 
@@ -260,7 +260,7 @@ input::placeholder {
   }
 }
 
-.App .success-popup-container {
+ .success-popup-container {
   position: fixed;
   left: 0;
   top: 0;
@@ -271,7 +271,7 @@ input::placeholder {
   align-items: center;
 }
 
-.App .success-popup-container::before {
+ .success-popup-container::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -281,7 +281,7 @@ input::placeholder {
   filter: blur(10px);
 }
 
-.App .success-popup-container .success-popup-content {
+ .success-popup-container .success-popup-content {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,11 +294,11 @@ input::placeholder {
   z-index: 1;
 }
 
-.App .success-popup-container .verification-icon {
+ .success-popup-container .verification-icon {
   width: 80px;
 }
 
-.App .success-popup-container h2 {
+ .success-popup-container h2 {
   color: var(--secondary-color);
 }
 
@@ -327,16 +327,16 @@ input::placeholder {
 }
 
 @media screen and (max-width: 350px) {  
-  .App .success-popup-container .success-popup-content {
+   .success-popup-container .success-popup-content {
     gap: 1rem;
     padding: 40px;
   }
   
-  .App .success-popup-container .verification-icon {
+   .success-popup-container .verification-icon {
     width: 50px;
   }
   
-  .App .success-popup-container h2 {
+   .success-popup-container h2 {
     font-size: 18px;
   }
   
@@ -353,7 +353,7 @@ input::placeholder {
     --main-padding: 80px 80px 100px 80px;
   }
 
-  /* .App .hero-section .desktop-hero-text {
+  /*  .hero-section .desktop-hero-text {
     padding: 20px;
     width: 400px;
     bottom: -120px;
@@ -367,7 +367,7 @@ input::placeholder {
     --main-padding: 80px 80px 100px 80px;
   }
 
-  .App main .registration-content {
+   main .registration-content {
     gap: 5rem;
   }
 
