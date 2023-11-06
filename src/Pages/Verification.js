@@ -23,6 +23,13 @@ const registrants = [
         graduationYear: 2022,
     },
     {
+        fullname: "Jeroldine Oakley",
+        email: "jeroak@example.com",
+        id: "ep10s1",
+        phoneNumber: "411-292-2858",
+        graduationYear: 2024,
+    },
+    {
         fullname: "Emmanualla Prempeh",
         email: "emmanualla.prempeh@example.com",
         id: "ep101",

@@ -2,6 +2,7 @@ import Hero from '../Components/Hero';
 import Form from '../Components/Form';
 import Popdown from '../Components/Popdown';
 import { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Registration = (props) => {
 const [isDisplayed, setIsDisplayed] = useState(false)
@@ -31,7 +32,9 @@ return (
     <div>
         <main>
             <div className="registration-content">
-                <Hero />
+                <Link to='/verification'>
+                    <Hero />
+                </Link>
                 <Form 
                     showSuccessMessage={props.showSuccessMessage}
                 />
